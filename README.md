@@ -1,6 +1,6 @@
 fblogin
 =======
-+![Alt text](https://github.com/shivajaini/fblogin/blob/master/fb-login.gif "FB Login & Feed Transition")
++![Alt text](https://raw.githubusercontent.com/shivajaini/fblogin/master/fb-login.gif "FB Login & Feed Transition")
 
 
 
