@@ -32,7 +32,7 @@
     [super viewDidLoad];
     self.feedItemsView.contentSize = CGSizeMake(320, 805);
     self.indicatorView.center = CGPointMake(self.view.center.x, self.view.center.y-80);
-    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    [self setNeedsStatusBarAppearanceUpdate];
     [self performSelector:@selector(moveInFeedItems) withObject:nil afterDelay:2];
     // Do any additional setup after loading the view from its nib.
 }
