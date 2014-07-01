@@ -19,6 +19,18 @@
 		0689CAB1195F309D007CC007 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0689CA99195F309D007CC007 /* UIKit.framework */; };
 		0689CAB9195F309D007CC007 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0689CAB7195F309D007CC007 /* InfoPlist.strings */; };
 		0689CABB195F309D007CC007 /* fbloginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0689CABA195F309D007CC007 /* fbloginTests.m */; };
+		0689CAC7195F3117007CC007 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0689CAC5195F3117007CC007 /* LoginViewController.m */; };
+		0689CAC8195F3117007CC007 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0689CAC6195F3117007CC007 /* LoginViewController.xib */; };
+		0689CACC195F7B9A007CC007 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0689CACA195F7B9A007CC007 /* FeedViewController.m */; };
+		0689CACD195F7B9A007CC007 /* FeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0689CACB195F7B9A007CC007 /* FeedViewController.xib */; };
+		0689CAD11960765E007CC007 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0689CACF1960765E007CC007 /* SecondViewController.m */; };
+		0689CAD21960765E007CC007 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0689CAD01960765E007CC007 /* SecondViewController.xib */; };
+		0689CAD619607675007CC007 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0689CAD419607675007CC007 /* ThirdViewController.m */; };
+		0689CAD719607675007CC007 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0689CAD519607675007CC007 /* ThirdViewController.xib */; };
+		0689CADB19607685007CC007 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0689CAD919607685007CC007 /* FourthViewController.m */; };
+		0689CADC19607685007CC007 /* FourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0689CADA19607685007CC007 /* FourthViewController.xib */; };
+		0689CAE019607697007CC007 /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0689CADE19607697007CC007 /* FifthViewController.m */; };
+		0689CAE119607697007CC007 /* FifthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0689CADF19607697007CC007 /* FifthViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +60,24 @@
 		0689CAB6195F309D007CC007 /* fbloginTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fbloginTests-Info.plist"; sourceTree = "<group>"; };
 		0689CAB8195F309D007CC007 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0689CABA195F309D007CC007 /* fbloginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fbloginTests.m; sourceTree = "<group>"; };
+		0689CAC4195F3117007CC007 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		0689CAC5195F3117007CC007 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		0689CAC6195F3117007CC007 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		0689CAC9195F7B9A007CC007 /* FeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FeedViewController.h; path = ../FeedViewController.h; sourceTree = "<group>"; };
+		0689CACA195F7B9A007CC007 /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FeedViewController.m; path = ../FeedViewController.m; sourceTree = "<group>"; };
+		0689CACB195F7B9A007CC007 /* FeedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FeedViewController.xib; path = ../FeedViewController.xib; sourceTree = "<group>"; };
+		0689CACE1960765E007CC007 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		0689CACF1960765E007CC007 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		0689CAD01960765E007CC007 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		0689CAD319607675007CC007 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		0689CAD419607675007CC007 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		0689CAD519607675007CC007 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		0689CAD819607685007CC007 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		0689CAD919607685007CC007 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		0689CADA19607685007CC007 /* FourthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourthViewController.xib; sourceTree = "<group>"; };
+		0689CADD19607697007CC007 /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
+		0689CADE19607697007CC007 /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
+		0689CADF19607697007CC007 /* FifthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FifthViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +137,28 @@
 		0689CA9B195F309D007CC007 /* fblogin */ = {
 			isa = PBXGroup;
 			children = (
+				0689CAC9195F7B9A007CC007 /* FeedViewController.h */,
+				0689CACA195F7B9A007CC007 /* FeedViewController.m */,
+				0689CACB195F7B9A007CC007 /* FeedViewController.xib */,
 				0689CAA4195F309D007CC007 /* AppDelegate.h */,
 				0689CAA5195F309D007CC007 /* AppDelegate.m */,
 				0689CAA7195F309D007CC007 /* Images.xcassets */,
 				0689CA9C195F309D007CC007 /* Supporting Files */,
+				0689CAC4195F3117007CC007 /* LoginViewController.h */,
+				0689CAC5195F3117007CC007 /* LoginViewController.m */,
+				0689CAC6195F3117007CC007 /* LoginViewController.xib */,
+				0689CACE1960765E007CC007 /* SecondViewController.h */,
+				0689CACF1960765E007CC007 /* SecondViewController.m */,
+				0689CAD01960765E007CC007 /* SecondViewController.xib */,
+				0689CAD319607675007CC007 /* ThirdViewController.h */,
+				0689CAD419607675007CC007 /* ThirdViewController.m */,
+				0689CAD519607675007CC007 /* ThirdViewController.xib */,
+				0689CAD819607685007CC007 /* FourthViewController.h */,
+				0689CAD919607685007CC007 /* FourthViewController.m */,
+				0689CADA19607685007CC007 /* FourthViewController.xib */,
+				0689CADD19607697007CC007 /* FifthViewController.h */,
+				0689CADE19607697007CC007 /* FifthViewController.m */,
+				0689CADF19607697007CC007 /* FifthViewController.xib */,
 			);
 			path = fblogin;
 			sourceTree = "<group>";
@@ -219,8 +267,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0689CAE119607697007CC007 /* FifthViewController.xib in Resources */,
 				0689CAA0195F309D007CC007 /* InfoPlist.strings in Resources */,
 				0689CAA8195F309D007CC007 /* Images.xcassets in Resources */,
+				0689CAD719607675007CC007 /* ThirdViewController.xib in Resources */,
+				0689CACD195F7B9A007CC007 /* FeedViewController.xib in Resources */,
+				0689CADC19607685007CC007 /* FourthViewController.xib in Resources */,
+				0689CAC8195F3117007CC007 /* LoginViewController.xib in Resources */,
+				0689CAD21960765E007CC007 /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +293,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0689CAE019607697007CC007 /* FifthViewController.m in Sources */,
+				0689CAD11960765E007CC007 /* SecondViewController.m in Sources */,
 				0689CAA6195F309D007CC007 /* AppDelegate.m in Sources */,
+				0689CAD619607675007CC007 /* ThirdViewController.m in Sources */,
 				0689CAA2195F309D007CC007 /* main.m in Sources */,
+				0689CACC195F7B9A007CC007 /* FeedViewController.m in Sources */,
+				0689CADB19607685007CC007 /* FourthViewController.m in Sources */,
+				0689CAC7195F3117007CC007 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +497,7 @@
 				0689CAC0195F309D007CC007 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0689CAC1195F309D007CC007 /* Build configuration list for PBXNativeTarget "fbloginTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +506,7 @@
 				0689CAC3195F309D007CC007 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
