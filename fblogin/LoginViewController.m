@@ -61,25 +61,7 @@
     firstNavigationController.navigationBar.titleTextAttributes = titleTextAttributes;
     firstNavigationController.navigationBar.backgroundColor = UIColorFromRGB(0x4462a1);
     [firstNavigationController.navigationBar setTranslucent:NO];
-    [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0x4462a1)];
-    
-    UIButton *peopleButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    peopleButton.frame = CGRectMake(0, 0, 31, 31);
-    [peopleButton setImage:[UIImage imageNamed:@"people-icon.png"] forState:UIControlStateNormal];
-    
-    
-    UIBarButtonItem *rightButton=[[UIBarButtonItem alloc] init];
-    [rightButton setCustomView:peopleButton];
-    firstNavigationController.navigationItem.rightBarButtonItem = rightButton;
-    
-    UIButton *searchButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    searchButton.frame = CGRectMake(0, 0, 31, 31);
-    [searchButton setImage:[UIImage imageNamed:@"search-button.png"] forState:UIControlStateNormal];
-    
-    
-    UIBarButtonItem *leftButton=[[UIBarButtonItem alloc] init];
-    [leftButton setCustomView:searchButton];
-    firstNavigationController.navigationItem.leftBarButtonItem = leftButton;
+    [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0x4d6ca4)];
     
     firstNavigationController.tabBarItem.title = @"News Feed";
     firstNavigationController.tabBarItem.image = [UIImage imageNamed:@"feed-icon"];
